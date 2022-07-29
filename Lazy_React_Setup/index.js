@@ -45,5 +45,4 @@ ReactDOM.render(
     </nav>
     )
 
-    console.log(header)
     document.getElementById("root").append(JSON.stringify(header))
