@@ -23,10 +23,27 @@ ReactDOM.render(
     ) */
 
     // Declarative feature of react rather than Vanilla JS Imperative way
+    /*
     let h1 = document.createElement("h1")
 
     h1.textContent = "I'm doing it in an imperative way"
 
     h1.className = "header"
 
-    document.querySelector("#root").append(h1)
+    document.querySelector("#root").append(h1) */
+
+    // challenge on using JSX to create nested elements
+
+    const header = (
+    <nav>
+        <h1>Product Showcase</h1>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+    </nav>
+    )
+
+    console.log(header)
+    document.getElementById("root").append(JSON.stringify(header))
