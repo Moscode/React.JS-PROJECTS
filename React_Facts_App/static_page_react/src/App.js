@@ -1,7 +1,7 @@
 import './App.css';
 
 const logo = require('./logo192.png');
-function reactGists(){
+function ReactGists(){
   return(
       <ul>
           <li>Was first released in 2013</li>
@@ -24,7 +24,7 @@ function App() {
         <h2>
           Fun facts about React
         </h2>
-        {reactGists()}
+        <ReactGists />
       </main>
     </div>
   );
