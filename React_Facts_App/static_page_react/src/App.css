@@ -25,8 +25,11 @@
 }
 
 .main{
+    margin: auto;
+    margin-top: 7%;
     position: absolute;
-
+    left: 40%;
+    padding: 2% 0;
 }
 
 .footer{
