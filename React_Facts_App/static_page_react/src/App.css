@@ -1,3 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5em;
+}
+
+.header h1{
+    margin-left: 11em;
+}
+
 .nav-items{
     list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2em;
+}
+
+.nav-items li{
+    margin: 0px 3em;
 }

@@ -3,7 +3,7 @@ const logo = require('./logo192.png');
 
 function Header(){
   return(
-      <header>
+      <header className="header">
         <img src={logo} alt="" width="40px"/>
         <h1>ReactFacts</h1>
         <nav>
