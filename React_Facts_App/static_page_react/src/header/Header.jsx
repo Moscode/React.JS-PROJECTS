@@ -1,6 +1,6 @@
 import React from "react"
 import '../App.css'
-const logo = require("./logo192.png")
+import logo from "./logo192.png"
 
 function Header(){
     return(
