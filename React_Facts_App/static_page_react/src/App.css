@@ -23,3 +23,11 @@
 .img-logo{
     width: 80px;
 }
+
+.footer{
+    background-color: gray;
+    margin: 0px 43%;
+    position: absolute;
+    bottom: 0;
+    font-size: large;
+}

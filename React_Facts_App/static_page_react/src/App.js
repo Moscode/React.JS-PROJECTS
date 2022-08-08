@@ -33,9 +33,10 @@ function Main(){
 
 function Footer(){
   return(
-    <small>@copyright Moscode</small>
+    <small className="footer">@copyright Moscode</small>
   )
 }
+
 function App() {
   return (
     <div className="App">
