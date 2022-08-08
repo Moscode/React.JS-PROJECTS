@@ -24,10 +24,15 @@
     width: 80px;
 }
 
+.main{
+    position: absolute;
+
+}
+
 .footer{
     background-color: gray;
     margin: 0px 43%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     font-size: large;
 }

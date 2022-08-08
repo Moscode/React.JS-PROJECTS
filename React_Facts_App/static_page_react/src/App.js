@@ -18,7 +18,7 @@ function Header(){
 }
 function Main(){
   return(
-    <div>
+    <div className="main">
       <h2> Fun facts about React </h2>
       <ul>
           <li>Was first released in 2013</li>
